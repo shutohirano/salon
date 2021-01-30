@@ -2,18 +2,11 @@ import tweepy
 import datetime
 
 def twitter_api():
- CK = "UVwe5pjePIXGfFMeiH6jftjH2"
- CS = "KbWxkO5imD95rGY15l1hnBxf10p5DoXwesjpN04Spxvd1rv6hK"
- AT = "1259691897624248320-CdeF0358B5m463IHPsa0qDwsOQNmA8"
- AS = "Olku3QtrRPw4lcKgXno8pofmcuVqz7YKKT8MhrrL8SgCq"   
- CK1 = "stMKMYHm1ad8IaCHEbEMK7ZTo"
- CS1 = "iaPJc6K9imt97Xz1l6oJptSkkzeJ9keGf3237zNVUQtUCgXG1B"
- AT1 = "1244514984207376385-Xk9CQYbKS0JLVFyd4MrKRLN1B40kk7"
- AS1 = "V7L5bKv1VwmjYnVFn2yq12r36wNkDXEuU4mzQc4fW4NTh"
- CK2 = "8jveHbDDRbbIJeBAgbHGhXBdf"
- CS2 = "tMAJjnLQKWiiNFI0Z2gJssMKKsVYYVTcR9Cn0R38ec36sGbQSK"
- AT2 = "1288743039133822976-n8HEImVmo44bBhl2oY16xgACgC0luv"
- AS2 = "vNIFB2RUnwPTUwULlBltOkoDdiYfKrGRnEdB3ZlUxJ1AK"
+ CK = ""
+ CS = ""
+ AT = ""
+ AS = ""   
+
  auth = tweepy.OAuthHandler(CK, CS)
  auth.set_access_token(AT, AS)
  api = tweepy.API(auth)
