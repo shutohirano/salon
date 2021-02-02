@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf-8
-# 実行方法: python3 network_follow-fujihara_mod.py < list.csv
+# 実行方法: python3 network_follow.py < list.csv
 import networkx as nx # NetworkXのインポート
 import numpy as np
 import sys
