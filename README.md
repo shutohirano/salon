@@ -18,7 +18,7 @@ https://www.itti.jp/web-direction/how-to-apply-for-twitter-api/
  
 サロン入会後2020/5/11の記事に記載されている参加方法を参考にTwitterアカウント作成
  
-# Requirement
+# ライブラリ
  
 git_onlinesalon内コードに必要なライブラリ
  
@@ -35,9 +35,9 @@ git_onlinesalon内コードに必要なライブラリ
 * emoji
 * ABCMeta
 
-# Installation
+# インストール
  
-Requirementで列挙したライブラリなどのインストール方法を説明する
+上記ライブラリのインストール方法を説明する
  
 ```bash
 pip install  networkx
