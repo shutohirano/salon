@@ -20,7 +20,7 @@ https://www.itti.jp/web-direction/how-to-apply-for-twitter-api/
  
 # Requirement
  
-必要なライブラリ
+git_onlinesalon内コードに必要なライブラリ
  
 * huga 3.5.2
 * hogehuga 1.0.2
